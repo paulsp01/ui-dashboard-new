@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <form id="loginForm">
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <div>
+        <button id="googleSignIn">Sign in with Google</button>
+    </div>
+
+    <script type="module">
+      window.firebaseConfig = {
+       apiKey: "AIzaSyCy5GVEmDs8pTodcPPiBK3AomSPY-B7rwM",
+  authDomain: "ui-dashboard-145da.firebaseapp.com",
+  projectId: "ui-dashboard-145da",
+  storageBucket: "ui-dashboard-145da.appspot.com",
+  messagingSenderId: "668129028910",
+  appId: "1:668129028910:web:e9133e719dd001b71c28bf",
+  measurementId: "G-2YTFMJKQ9M",
+      };
+    </script>
+    <script type="module" src="js/auth.js"></script>
+</body>
+</html>

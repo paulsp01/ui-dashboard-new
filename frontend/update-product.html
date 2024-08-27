@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update Product</title>
+  <link rel="stylesheet" href="style.css"> <!-- Optional: Link to your CSS file -->
+</head>
+<body>
+  <h1>Update Product</h1>
+
+  <form id="productForm">
+    <div>
+      <label for="productName">Name:</label>
+      <input type="text" id="productName" name="name" >
+    </div>
+    <div>
+      <label for="productPrice">Price:</label>
+      <input type="number" id="productPrice" name="price" step="0.01" >
+    </div>
+    <div>
+      <label for="productDescription">Description:</label>
+      <textarea id="productDescription" name="description" ></textarea>
+    </div>
+    <input type="hidden" id="productId" name="id"> <!-- Hidden field for product ID -->
+    <button type="button" id="submitProduct">Update Product</button>
+    <button type="button" id="cancelProduct">Cancel</button>
+  </form>
+
+  <script type="module" src="js/product-management.js"></script>
+  <script type="module" src="js/update.js"></script>
+</body>
+</html>

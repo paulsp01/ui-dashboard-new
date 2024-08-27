@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dashboard</title>
+
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.15.0/firebase-auth.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.15.0/firebase-firestore.js"></script>
+</head>
+<body>
+    <form id="productForm">
+        <input type="text" id="productName" placeholder="Product Name" required>
+        <textarea id="productDescription" placeholder="Product Description" required></textarea>
+        <input type="number" id="productPrice" placeholder="Product Price" required>
+        <button type="submit">Add Product</button>
+    </form>
+      <script  type="module" src="js/auth.js"></script>
+    <script type="module" src="js/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Management</title>
+  <link rel="stylesheet" href="manage-product.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Product Management</h1>
+    <button id="addProductButton">Add Product</button>
+    
+    <div id="productForm" style="display: none;">
+      <h2 id="formTitle">Add Product</h2>
+      <input type="text" id="productName" placeholder="Product Name" />
+      <input type="number" id="productPrice" placeholder="Product Price" />
+      
+    </div>
+    
+    <h2>Product List</h2>
+    <div id="productsContainer">
+
+       
+    </div>
+  </div>
+  
+  <script type="module" src="js/product.js"></script>
+
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+ 
+  <script type="module" src="js/product-management.js"></script>
+</body>
+</html>

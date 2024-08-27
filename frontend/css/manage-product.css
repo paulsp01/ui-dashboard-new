@@ -1,0 +1,104 @@
+/* /frontend/css/product-management.css */
+
+/* Styling for the Product Management Page */
+
+/* Center and give the page a clean, professional look */
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Add Product Button */
+#addProductButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addProductButton:hover {
+    background-color: #218838;
+}
+
+/* Product Form Styling */
+#productForm {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#productForm h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#productForm input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Product List Styling */
+#productsContainer {
+    margin-top: 20px;
+}
+
+#productsContainer .product-card {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#productsContainer .product-card h3 {
+    margin: 0;
+    color: #333;
+}
+
+#productsContainer .product-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+#productsContainer .product-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#productsContainer .product-card button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for Mobile Responsiveness */
+
